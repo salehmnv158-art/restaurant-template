@@ -1,0 +1,329 @@
+/*? Width: 992px to 1280px */  /* Done */
+
+/** 1200px -- 90% **/
+
+@media only screen and (max-width: 1300px) and (min-width: 992px){
+    #navbar{
+        width: 89.5%;
+    }
+    .yazi2{
+        margin: 20px 0px 0px 0px;
+        font-size: 55px;
+        width: 70%;
+    }
+    .yazi3{
+        width: 50%;
+    }
+    .line{
+        height: 70px;
+        margin-top: 90px;
+        margin-bottom: -30px;
+    }
+    #disc_cont{
+        width: 90%;
+    }
+    .disc_ins_cont_1, .disc_ins_cont_2{
+        width: 42%;
+    }
+    .disc_ins_cont_1_yazi_1, .disc_ins_cont_1_yazi_2, .disc_ins_cont_2_yazi_1, .disc_ins_cont_2_yazi_2{
+        width: 100%;
+    }
+    #disc_cont div div img{
+        width: 100%;
+    }
+    .disc_ins_cont_2_yazi_1 h1{
+        font-size: 35px;
+    }
+    .disc_ins_cont div span{
+        font-size: 16px;
+    }
+    .menu_cont_top{
+        width: 90%;
+    }
+    .menu_cont_top_same{
+        width: 33%;
+    }
+    .menu_cont_top_center{
+        width: 34%;
+    }
+    .menu_cont_top_center h1{
+        font-size: 40px;
+    }
+    .menu_cont_center{
+        width: 90%;
+        gap: 120px;
+    }
+    .menu_cont_center_same{
+        width: 50%;
+    }
+    .menu_cont_center_left, .menu_cont_center_right{
+        width: 100%;
+    }
+    .menu_cont_center_left h6, .menu_cont_center_right h6{
+        font-size: 14px;
+    }
+    .menu_cont_center_same div span{
+        font-size: 15px;
+    }
+    .menu_cont_bottom_insd{
+        width: 100%;
+    }
+    .menu_site_button_all{
+        width: 90%;
+    }
+    .menu_site_button_side{
+        width: 38%;
+    }
+    .reservation_cent{
+        width: 90%;
+    }
+}
+/*? Width: 768px to 992px */ /* Done */
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+    #navbar{
+        width: 89.5%;
+    }
+    .yazi1{
+        font-size: 13px;
+    }
+    .yazi2{
+        font-size: 45px;
+        width: 75%;
+    }
+    .yazi3{
+        margin: 20px 0px 0px 0px;
+        width: 50%;
+    }
+    .line{
+        height: 70px;
+        margin-top: 80px;
+        margin-bottom: -30px;
+    }
+    #disc_cont{
+        width: 95%;
+    }
+    .disc_ins_cont_1, .disc_ins_cont_2{
+        width: 42%;
+    }
+    .disc_ins_cont_1_yazi_1, .disc_ins_cont_1_yazi_2, .disc_ins_cont_2_yazi_1, .disc_ins_cont_2_yazi_2{
+        width: 100%;
+    }
+    #disc_cont div div img{
+        width: 100%;
+    }
+    .disc_ins_cont_2_yazi_1 h1{
+        font-size: 30px;
+    }
+    .disc_ins_cont div span{
+        font-size: 16px;
+    }
+    .menu_cont_top{
+        width: 90%;
+    }
+    .menu_cont_top_same{
+        width: 30%;
+    }
+    .menu_cont_top_center{
+        width: 40%;
+    }
+    .menu_cont_top_center h1{
+        font-size: 35px;
+    }
+    .menu_cont_center{
+        width: 90%;
+        gap: 60px;
+    }
+    .menu_cont_center_same{
+        width: 50%;
+    }
+    .menu_cont_center_left, .menu_cont_center_right{
+        width: 100%;
+    }
+    .menu_cont_center_left h6, .menu_cont_center_right h6{
+        font-size: 14px;
+    }
+    .menu_cont_center_same div span{
+        font-size: 15px;
+    }
+    .menu_cont_bottom{
+        height: 300px;
+    }
+    .menu_cont_bottom_insd{
+        width: 100%;
+    }
+    .menu_cont_bottom_insd h3{
+        margin: 50px 0px 30px 70px;
+        font-size: 13px;
+    }
+
+    .menu_cont_bottom_insd h1{
+        margin: 0px 0px 20px 70px;
+        font-size: 35px;
+    }
+    .menu_cont_bottom_insd div{
+        width: 500px;
+        font-size: 15px;
+        margin: 0px 0px 0px 70px;
+    }
+    .menu_site_button_all{
+        width: 90%;
+    }
+    .menu_site_button_side{
+        width: 38%;
+    }
+    .reservation_cent{
+        width: 90%;
+    }
+    .reservation_ins_cont_reserve h1{
+        font-size: 30px;
+    }
+    .reservation_ins_cont_reserve_text{
+        width: 550px;
+    }
+    .reservation_ins_cont_phone_reserve h1 b{
+        font-size: 16px;
+    }
+    .reservation_ins_cont_number{
+        font-size: 40px;
+    }
+}
+
+/*? Width: to 768px */ /* Done */
+
+@media only screen and (max-width: 768px){
+    #nav{
+        height: 520px;
+    }
+    #navbar{
+        width: 95%;
+    }
+    .nav_a div{
+        font-size: 15px;
+    }
+    .yazi1{
+        margin: 80px 0px 0px 0px;
+        font-size: 13px;
+    }
+    .yazi2{
+        font-size: 30px;
+        width: 85%;
+    }
+    .yazi3{
+        margin: 20px 0px 0px 0px;
+        width: 70%;
+    }
+    .line{
+        height: 70px;
+        margin-top: 80px;
+        margin-bottom: -30px;
+    }
+    #disc_cont{
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+    }
+    .disc_ins_cont_1, .disc_ins_cont_2{
+        width: 90%;
+        margin: auto;
+    }
+    .disc_ins_cont_1_yazi_1, .disc_ins_cont_1_yazi_2, .disc_ins_cont_2_yazi_1, .disc_ins_cont_2_yazi_2{
+        width: 100%;
+    }
+    .disc_ins_cont_2_yazi_2 h1, .disc_ins_cont_1_yazi_1 h1, .disc_ins_cont_1_yazi_2 h1{
+        font-size: 17px;
+    }
+    #disc_cont div div img{
+        width: 100%;
+    }
+    .disc_ins_cont_2_yazi_1 h1{
+        font-size: 20px;
+    }
+    .disc_ins_cont div span{
+        font-size: 16px;
+    }
+    .menu_cont_top{
+        width: 90%;
+    }
+    .menu_cont_top_same{
+        display: none;
+        width: 33%;
+    }
+    .menu_cont_top_center{
+        width: 100%;
+        margin: 40px;
+    }
+    .menu_cont_top_center span{
+        font-size: 17px;
+    }
+    .menu_cont_top_center h1{
+        font-size: 30px;
+    }
+    .menu_cont_center{
+        width: 90%;
+    }
+    .menu_cont_center_same{
+        width: 96%;
+        margin: 50px 0px 0px 0px;
+    }
+    .menu_second{
+        display: none;
+    }
+    .menu_cont_center_left, .menu_cont_center_right{
+        width: 100%;
+    }
+    .menu_cont_center_left h6, .menu_cont_center_right h6{
+        font-size: 14px;
+        margin: 0px 0px 15px 0px;
+    }
+    .menu_cont_center_same div span{
+        font-size: 15px;
+    }
+    .menu_site_button_all{
+        width: 90%;
+    }
+    .menu_site_button_side{
+        width: 38%;
+        display: none;
+    }
+    .menu_cont_bottom{
+        height: 300px;
+    }
+    .menu_cont_bottom_insd{
+        width: 90%;
+    }
+    .menu_cont_bottom_insd h3{
+        margin: 50px 0px 20px 0px;
+        font-size: 12px;
+    }
+    .menu_cont_bottom_insd h1{
+        margin: 0px 0px 20px 0px;
+        font-size: 25px;
+    }
+    .menu_cont_bottom_insd div{
+        margin: 0px 0px 0px 0px;
+        font-size: 15px;
+        line-height: 26px;
+        width: 90%;
+    }
+    .reservation_cent{
+        width: 100%;
+    }
+    .reservation_ins_cont_reserve_text{
+        width: 100%;
+    }
+    .reservation_ins_cont_reserve_text span{
+        font-size: 16px;
+    }
+    .reservation_ins_cont_reserve h1{
+        font-size: 26px;
+    }
+    .reservation_ins_cont_phone_reserve h1 b{
+        font-size: 13px;
+    }
+    .reservation_ins_cont_number{
+        font-size: 40px;
+    }
+}
