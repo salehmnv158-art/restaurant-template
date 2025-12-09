@@ -19,34 +19,14 @@
     <div id="all">
         <div id="nav">
             <div id="navbar">
-                <div class="navbar_left">
-                    <div class="home logo" >
-                        <a href=""><span><b>Restaurant Name</b></span></a>
-                    </div>
+                <div class="left-bar">
+                    <a href="index.html"><div class="font_family_montserrat logo">Restaurant Logo</div></a>
                 </div>
-                <div class="navbar_activate_button">
-                    <i class="fa-solid fa-bars"></i>
+                <div class="right-bar">
+                    <a class="navbar_link" href="index.html"><div class="font_family_montserrat navbar_right_insd">Home</div></a>
+                    <a class="navbar_link" href="about.html"><div class="font_family_montserrat navbar_right_insd">About Us</div></a>
+                    <a class="navbar_link" href="menu.html"><div class="font_family_montserrat navbar_right_insd">Menu</div></a>
                 </div>
-                <div class="navbar_deactivate_button display_none">
-                    <i class="fa-solid fa-xmark"></i>
-                </div>
-            </div>
-            <div class="navbar_right display_none">
-                <a class="nav_right_home_a nav_a bsq_nav_a" href="">
-                    <div class="nav_right_home font_family_montserrat">Home</div>
-                </a>
-                <a class="nav_a bsq_nav_a" href="">
-                    <div class="about_us font_family_montserrat">About Us</div>
-                </a>
-                <a class="nav_a bsq_nav_a" href="">
-                    <div class="menu font_family_montserrat">Menu</div>
-                </a>
-                <a class="nav_a bsq_nav_a" href="">
-                    <div class="contact font_family_montserrat">Contact Us</div>
-                </a>
-                <a class="reserve_a nav_a" href="#">
-                    <div class="reserve font_family_montserrat">Reservation</div>
-                </a>
             </div>
             <div id="navph">
                 <div class="yazi yazi1">good place. good food.</div>
@@ -131,7 +111,7 @@
                 </div>
                 <div class="menu_site_button_all">
                     <div class="menu_site_button_side"></div>
-                    <a href=""><div class="menu_site_button font_family_funnel_display">VIEW ALL MENU</div></a>
+                    <a class="menu_site_button" href=""><div class="font_family_funnel_display">VIEW ALL MENU</div></a>
                     <div class="menu_site_button_side"></div>
                 </div>
                 <div class="menu_cont_bottom">
@@ -142,37 +122,49 @@
                     </div>
                 </div>
             </div>
-            <div id="reservation">
-                <div class="reservation_cent">
-                    <div class="reservation_ins_cont_1">
-                        <div class="reservation_ins_cont_reserve"><h1>Reservation</h1></div>
-                        <div class="reservation_ins_cont_reserve_text"><span>Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non.</span></div>
-                        <div class="reservation_ins_cont_book_a_table"><a href=""><h6 class="font_family_inter">Book A Table</h6></a></div>
+        </div>
+        <div id="footer">
+            <div class="footer-inside">
+                <div class="footer-1">
+                    <div class="footer-1-top">
+                        <a href="index.html"><span>Restaurant Logo</span></a>
                     </div>
-                    <div class="reservation_ins_cont_2">
-                        <div class="reservation_ins_cont_phone_reserve"><h1><b>Telephone Reservations</b></h1></div>
-                        <div class="reservation_ins_cont_number"><a href=""><h6>999 123 45 67</h6></a></div>
+                    <div class="footer-1-center">
+                        Egestas sit in lobortis duis viverra enim eros ornare. Et tincidunt pretium curabitur vehicula turpis adipiscing donec. Et ut morbi magna quis purus aliquet.
+                    </div>
+                    <div class="footer-1-bottom">
+                        <a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="javascript:void(0)"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="javascript:void(0)"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
+                <div class="footer-3">
+                    <div class="footer-3-top">Quick Link</div>
+                    <div class="footer-3-bottom">
+                        <a class="footer-link" href="index.html">
+                            <span class="footer-link-inside">Home</span>
+                        </a>
+                        <a class="footer-link" href="about.html">
+                            <span class="footer-link-inside">About Us</span>
+                        </a>
+                        <a class="footer-link" href="menu.html">
+                            <span class="footer-link-inside">Menu</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-2">
+                    <div class="footer-2-top">Our Location</div>
+                    <div class="footer-2-center">3 E 19th St, 123 Fifth Avenue,</div>
+                    <div class="footer-2-center">NY 10160, New York, USA</div>
+                    <div class="footer-2-center">1 234 567 890</div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copyright-left">Copyright © 2025 Restaurant</div>
+                <div class="copyright-right">Powered by Restaurant</div>
             </div>
         </div>
     </div>
-    <script>
-    let navbutact = document.querySelector('.navbar_activate_button');
-    let navbutdeact = document.querySelector('.navbar_deactivate_button');
-    let navbarright = document.querySelector('.navbar_right');
-
-    navbutact.addEventListener('click', ()=>{
-    navbutact.classList.add('display_none');
-    navbutdeact.classList.remove('display_none');
-    navbarright.classList.remove('display_none');
-    })
-
-    navbutdeact.addEventListener('click', ()=>{
-    navbutdeact.classList.add('display_none');
-    navbutact.classList.remove('display_none');
-    navbarright.classList.add('display_none');
-    })
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
