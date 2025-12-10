@@ -115,7 +115,7 @@ font-family: "Playfair Display", serif;
 }
 
 #navbar{
-    width: 1200px;
+    width: 96%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -207,18 +207,6 @@ font-family: "Playfair Display", serif;
     color: white;
 }
 
-.menu-line{
-    width: 300px;
-    height: 1px;
-    background-color: #555555;
-}
-
-.menu-items{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .appetizer{
     background-image: linear-gradient(rgba(27, 24, 18, 0.9),rgba(24, 22, 15, 0.9)),
     url(pexels-valeriya-1639556.jpg);
@@ -256,23 +244,36 @@ font-family: "Playfair Display", serif;
     margin: 0px 0px 30px 0px;
 }
 
+.menu-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
 .appetizer-item,
 .main-course-item,
 .dessert-item{
-    width: 600px;
+    width: 40%;
     font-size: 16px;
     font-weight: 400;
     color: #d3d3d3;
 }
 
+.menu-line{
+    width: 20%;
+    height: 1px;
+    background-color: #555555;
+}
+
 .appetizer-menu,
 .main-course-menu,
 .dessert-menu{
-    width: 1200px;
+    width: 90%;
     margin: 60px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 30px;
 }
 
 .menu-1,
@@ -315,9 +316,8 @@ font-family: "Playfair Display", serif;
 }
 
 .footer-inside{
-    margin: 50px 0px 0px 0px;
-    width: 1000px;
-    height: 200px;
+    margin: 50px 0px 50px 0px;
+    width: 90%;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -325,7 +325,7 @@ font-family: "Playfair Display", serif;
 }
 
 .footer-1{
-    width: 500px;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -415,7 +415,7 @@ font-family: "Playfair Display", serif;
 
 .copyright{
     border-top: 1px solid #333333;
-    width: 1000px;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

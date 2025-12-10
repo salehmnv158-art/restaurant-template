@@ -538,17 +538,16 @@ font-family: "Playfair Display", serif;
 }
 
 .footer-inside{
-    margin: 50px 0px 0px 0px;
-    width: 1000px;
-    height: 200px;
+    margin: 50px 0px 50px 0px;
+    width: 90%;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 60px;
 }
 
 .footer-1{
-    width: 500px;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -595,8 +594,6 @@ font-family: "Playfair Display", serif;
     margin: 0px 0px 20px 0px;
 }
 
-.footer-2-center,
-.footer-2-center,
 .footer-2-center{
     display: flex;
     flex-direction: column;
@@ -626,7 +623,8 @@ font-family: "Playfair Display", serif;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
+    margin: 0px 0px 5px 0px;
 }
 
 .footer-link:hover{
@@ -634,7 +632,7 @@ font-family: "Playfair Display", serif;
 }
 
 .copyright{
-    width: 1000px;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

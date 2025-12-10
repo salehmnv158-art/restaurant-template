@@ -77,6 +77,46 @@
     .reservation_cent{
         width: 90%;
     }
+    .footer-inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-1{
+        width: 85%;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-1-top a{
+        font-size: 20px;
+    }
+    .footer-1-center{
+        font-size: 15px;
+    }
+    .footer-1-bottom{
+        gap: 40px;
+    }
+    .footer-2{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-2-top{
+        font-size: 18px;
+    }
+    .footer-2-center{
+        font-size: 14px;
+    }
+    .footer-3{
+        text-align: center;
+        align-items: center;
+    }
+    .footer-3-top{
+        font-size: 18px;
+    }
+    .footer-link{
+        font-size: 15px;
+    }
 }
 /*? Width: 768px to 992px */ /* Done */
 
@@ -186,6 +226,46 @@
     }
     .reservation_ins_cont_number{
         font-size: 40px;
+    }
+    .footer-inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-1{
+        width: 85%;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-1-top a{
+        font-size: 20px;
+    }
+    .footer-1-center{
+        font-size: 15px;
+    }
+    .footer-1-bottom{
+        gap: 40px;
+    }
+    .footer-2{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-2-top{
+        font-size: 18px;
+    }
+    .footer-2-center{
+        font-size: 14px;
+    }
+    .footer-3{
+        text-align: center;
+        align-items: center;
+    }
+    .footer-3-top{
+        font-size: 18px;
+    }
+    .footer-link{
+        font-size: 15px;
     }
 }
 
@@ -330,5 +410,45 @@
     }
     .reservation_ins_cont_number{
         font-size: 40px;
+    }
+    .footer-inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-1{
+        width: 85%;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-1-top a{
+        font-size: 20px;
+    }
+    .footer-1-center{
+        font-size: 15px;
+    }
+    .footer-1-bottom{
+        gap: 40px;
+    }
+    .footer-2{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-2-top{
+        font-size: 18px;
+    }
+    .footer-2-center{
+        font-size: 15px;
+    }
+    .footer-3{
+        text-align: center;
+        align-items: center;
+    }
+    .footer-3-top{
+        font-size: 18px;
+    }
+    .footer-link{
+        font-size: 15px;
     }
 }

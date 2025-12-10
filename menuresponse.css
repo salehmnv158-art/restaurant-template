@@ -1,0 +1,198 @@
+/*? Width: 768px to 992px */ /* Done */
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+    .navph-top{
+        font-size: 65px;
+    }
+    .navph-line{
+        margin: 490px 0px 0px 0px;
+        height: 80px;
+    }
+    .appetizer-top,
+    .main-course-top,
+    .dessert-top{
+        font-size: 36px;
+    }
+    .menu-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .line-top{
+        display: none;
+    }
+    .menu-line{
+        width: 90%;
+    }
+    .appetizer-item,
+    .main-course-item,
+    .dessert-item{
+        width: 80%;
+        font-size: 15px;
+    }
+    .menu-line-3{
+        display: none;
+    }
+    .menu-1 p,
+    .menu-2 p,
+    .menu-3 p{
+        padding: 0px 0px 25px 0px;
+        font-size: 15px;
+    }
+    .menu-1 h6,
+    .menu-2 h6,
+    .menu-3 h6{
+        font-size: 14px;
+        margin: 0px 0px 30px 0px;
+    }
+    .footer-inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-1{
+        width: 85%;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-1-top a{
+        font-size: 20px;
+    }
+    .footer-1-center{
+        font-size: 15px;
+    }
+    .footer-1-bottom{
+        gap: 40px;
+    }
+    .footer-2{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-2-top{
+        font-size: 18px;
+    }
+    .footer-2-center{
+        font-size: 14px;
+    }
+    .footer-3{
+        text-align: center;
+        align-items: center;
+    }
+    .footer-3-top{
+        font-size: 18px;
+    }
+    .footer-link{
+        font-size: 15px;
+    }
+}
+
+/*? Width: to 768px */ /* Done */
+
+@media only screen and (max-width: 768px){
+    .left-bar a{
+        font-size: 18px;
+    }
+    .navbar_link{
+        font-size: 14px;
+    }
+    #navph{
+        width: 100%;
+    }
+    .navph-top{
+        font-size: 58px;
+    }
+    .navph-bottom{
+        width: 80%;
+        font-size: 15px;
+    }
+    .navph-line{
+        margin: 490px 0px 0px 0px;
+        height: 80px;
+    }
+    .appetizer-top,
+    .main-course-top,
+    .dessert-top{
+        font-size: 32px;
+    }
+    .menu-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .line-top{
+        display: none;
+    }
+    .menu-line{
+        width: 90%;
+    }
+    .appetizer-item,
+    .main-course-item,
+    .dessert-item{
+        width: 80%;
+        font-size: 14px;
+    }
+    .menu-line-3{
+        display: none;
+    }
+    .menu-line-2{
+        display: none;
+    }
+    .menu-1 p,
+    .menu-2 p,
+    .menu-3 p{
+        padding: 0px 0px 25px 0px;
+        font-size: 14px;
+    }
+    .menu-1 h6,
+    .menu-2 h6,
+    .menu-3 h6{
+        font-size: 14px;
+        margin: 0px 0px 30px 0px;
+    }
+    .footer-inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin: 50px 0px 20px 0px;
+    }
+    .footer-1{
+        width: 85%;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-1-top a{
+        font-size: 20px;
+    }
+    .footer-1-center{
+        font-size: 15px;
+    }
+    .footer-1-bottom{
+        gap: 40px;
+    }
+    .footer-2{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-2-top{
+        font-size: 18px;
+    }
+    .footer-2-center{
+        font-size: 15px;
+    }
+    .footer-3{
+        text-align: center;
+        align-items: center;
+    }
+    .footer-3-top{
+        font-size: 18px;
+    }
+    .footer-link{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,247 @@
+/*? Width: 768px to 992px */ /* Done */
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+    .navph-top{
+        font-size: 65px;
+    }
+    .navph-line{
+        margin: 490px 0px 0px 0px;
+        height: 80px;
+    }
+    .story-up-left{
+        font-size: 40px;
+    }
+    .story-up-right{
+        font-size: 15px;
+    }
+    .story-bottom{
+        margin: 80px 0px 0px 0px;
+    }
+    .trio h1{
+        font-size: 18px;
+    }
+    .trio-desc{
+        font-size: 15px;
+    }
+    .team{
+        margin: 80px 0px 0px 0px;
+    }
+    .team-top-left{
+        font-size: 40px;
+    }
+    .team-top-right{
+        font-size: 15px;
+    }
+    .team-member{
+        height: 400px;
+    }
+    .team-member-name{
+        padding: 200px 0px 0px 0px;
+        height: 400px;
+    }
+    .team-member-name h1{
+        font-size: 20px;
+    }
+    .team-member-name p{
+        font-size: 15px;
+    }
+    .team-icons{
+        font-size: 19px;
+    }
+    .footer-inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-1{
+        width: 85%;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-1-top a{
+        font-size: 20px;
+    }
+    .footer-1-center{
+        font-size: 15px;
+    }
+    .footer-1-bottom{
+        gap: 40px;
+    }
+    .footer-2{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-2-top{
+        font-size: 18px;
+    }
+    .footer-2-center{
+        font-size: 14px;
+    }
+    .footer-3{
+        text-align: center;
+        align-items: center;
+    }
+    .footer-3-top{
+        font-size: 18px;
+    }
+    .footer-link{
+        font-size: 15px;
+    }
+}
+
+/*? Width: to 768px */ /* Done */
+
+@media only screen and (max-width: 768px){
+    .left-bar a{
+        font-size: 18px;
+    }
+    .navbar_link{
+        font-size: 14px;
+    }
+    #navph{
+        width: 100%;
+    }
+    .navph-top{
+        font-size: 58px;
+    }
+    .navph-bottom{
+        width: 80%;
+        font-size: 15px;
+    }
+    .navph-line{
+        margin: 490px 0px 0px 0px;
+        height: 80px;
+    }
+    .story-up{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .story-up-left{
+        margin: 0px 0px 20px 0px;
+        font-size: 40px;
+        width: 90%;
+        text-align: center;
+    }
+    .story-up-right{
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+    }
+    .story-down{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0px 0px 0px;
+    }
+    .story-down-left{
+        font-size: 40px;
+        width: 0%;
+        text-align: center;
+    }
+    .story-down-right{
+        margin: 0px;
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+    }
+    .story-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+    }
+    .story-left-first,
+    .story-left-second,
+    .story-left-third{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .story-left-second{
+        margin: 30px 0px 30px 0px;
+    }
+    .trio h1{
+        font-size: 18px;
+    }
+    .trio-desc{
+        font-size: 15px;
+    }
+    .team{
+        margin: 60px 0px 0px 0px;
+    }
+    .team-top-left{
+        width: 70%;
+        font-size: 40px;
+    }
+    .team-top-right{
+        font-size: 15px;
+    }
+    .team-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .team-member{
+        width: 75%;
+        height: 500px;
+        background-position: 50% 35%;
+    }
+    .team-member-name{
+        padding: 200px 0px 0px 0px;
+        height: 400px;
+    }
+    .team-member-name h1{
+        font-size: 20px;
+    }
+    .team-member-name p{
+        font-size: 15px;
+    }
+    .team-icons{
+        font-size: 19px;
+    }
+    .footer-inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-1{
+        width: 85%;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-1-top a{
+        font-size: 20px;
+    }
+    .footer-1-center{
+        font-size: 15px;
+    }
+    .footer-1-bottom{
+        gap: 40px;
+    }
+    .footer-2{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-2-top{
+        font-size: 18px;
+    }
+    .footer-2-center{
+        font-size: 15px;
+    }
+    .footer-3{
+        text-align: center;
+        align-items: center;
+    }
+    .footer-3-top{
+        font-size: 18px;
+    }
+    .footer-link{
+        font-size: 15px;
+    }
+}

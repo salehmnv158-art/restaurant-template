@@ -106,11 +106,10 @@ font-family: "Playfair Display", serif;
     url(pexels-lawrencesuzara-1581554.jpg);
     background-position: center;
     background-size: cover;
-    height: 630px;
 }
 
 #navbar{
-    width: 1200px;
+    width: 96%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,7 +166,7 @@ font-family: "Playfair Display", serif;
     align-items: center;
     color: white;
     text-align: center;
-    margin: 180px 0px 0px 0px;
+    margin: 180px 0px 240px 0px;
 }
 
 .navph-top{
@@ -202,15 +201,17 @@ font-family: "Playfair Display", serif;
 }
 
 .story{
-    width: 1200px;
+    width: 96%;
     margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .story-top{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
@@ -223,13 +224,11 @@ font-family: "Playfair Display", serif;
 .story-up-left{
     font-size: 47px;
     font-weight: 600;
-    width: 400px;
-    margin: 50px 0px 20px 0px;
+    width: 30%;
 }
 
 .story-up-right{
-    width: 800px;
-    margin: 50px 0px 20px 0px;
+    width: 70%;
     color: #838383;
     line-height: 1.7;
     font-size: 16px;
@@ -242,36 +241,31 @@ font-family: "Playfair Display", serif;
 }
 
 .story-down-left{
-    width: 400px;
+    width: 30%;
 }
 
 .story-down-right{
-    width: 800px;
+    width: 70%;
     color: #838383;
     line-height: 1.7;
     font-size: 16px;
 }
 
 .story-bottom{
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 4%;
     margin: 100px 0px 0px 0px;
-}
-
-.story-bottom-left{
-    width: 400px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
 }
 
 .story-left-first,
 .story-left-second,
 .story-left-third{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
 }
 
 .story-icons{
@@ -283,7 +277,7 @@ font-family: "Playfair Display", serif;
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: absolute;
+    margin: 0px 0px 20px 0px;
 }
 
 .story-icons i{
@@ -293,7 +287,6 @@ font-family: "Playfair Display", serif;
 }
 
 .trio{
-    margin: 0px 0px 0px 70px;
     display: flex;
     flex-direction: column;
 }
@@ -303,24 +296,14 @@ font-family: "Playfair Display", serif;
     font-weight: 600;
     margin-bottom: 20px;
     color: rgb(26, 26, 26);
+    text-align: center;
 }
 
-.trio p{
+.trio-desc{
     font-size: 16px;
     color: #838383;
     line-height: 1.7;
-}
-
-.story-bottom-right{
-    width: 700px;
-    height: 300px;
-}
-
-.story-bottom-right img{
-    width: 700px;
-    height: 500px;
-    object-fit: cover;
-    position: absolute;
+    text-align: center;
 }
 
 .team{
@@ -333,7 +316,7 @@ font-family: "Playfair Display", serif;
 }
 
 .team-insd{
-    width: 1200px;
+    width: 96%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -343,23 +326,25 @@ font-family: "Playfair Display", serif;
 
 .team-top{
     display: flex;
-    align-items: end;
-    margin: 120px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    gap: 30px;
 }
 
 .team-top-left{
     font-size: 50px;
-    width: 500px;
+    width: 60%;
     font-weight: 600;
     color: white;
 }
 
 .team-top-right{
-    width: 700px;
+    width: 90%;
     color: #dfdfdf;
     line-height: 1.7;
     font-size: 16px;
-    margin: 0px 0px 0px 50px;
 }
 
 .team-bottom{
@@ -367,11 +352,11 @@ font-family: "Playfair Display", serif;
     margin: 50px 0px 40px 0px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .team-member{
-    width: 360px;
+    width: 32%;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -393,7 +378,6 @@ font-family: "Playfair Display", serif;
     width: 100%;
     height: 500px;
     color: white;
-    font-size: 18px;
     text-align: center;
 
     /* Başlanğıcda gizli */
@@ -455,17 +439,16 @@ font-family: "Playfair Display", serif;
 }
 
 .footer-inside{
-    margin: 50px 0px 0px 0px;
-    width: 1000px;
-    height: 200px;
+    margin: 50px 0px 50px 0px;
+    width: 90%;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 60px;
 }
 
 .footer-1{
-    width: 500px;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -512,8 +495,6 @@ font-family: "Playfair Display", serif;
     margin: 0px 0px 20px 0px;
 }
 
-.footer-2-center,
-.footer-2-center,
 .footer-2-center{
     display: flex;
     flex-direction: column;
@@ -552,7 +533,7 @@ font-family: "Playfair Display", serif;
 }
 
 .copyright{
-    width: 1000px;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
