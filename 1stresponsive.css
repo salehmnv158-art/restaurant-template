@@ -3,9 +3,6 @@
 /** 1200px -- 90% **/
 
 @media only screen and (max-width: 1300px) and (min-width: 992px){
-    #navbar{
-        width: 89.5%;
-    }
     .yazi2{
         margin: 20px 0px 0px 0px;
         font-size: 55px;
@@ -74,9 +71,6 @@
     .menu_site_button_side{
         width: 38%;
     }
-    .reservation_cent{
-        width: 90%;
-    }
     .footer-inside{
         display: flex;
         flex-direction: column;
@@ -121,9 +115,6 @@
 /*? Width: 768px to 992px */ /* Done */
 
 @media only screen and (max-width: 992px) and (min-width: 768px){
-    #navbar{
-        width: 89.5%;
-    }
     .yazi1{
         font-size: 13px;
     }
@@ -211,21 +202,6 @@
     }
     .menu_site_button_side{
         width: 38%;
-    }
-    .reservation_cent{
-        width: 90%;
-    }
-    .reservation_ins_cont_reserve h1{
-        font-size: 30px;
-    }
-    .reservation_ins_cont_reserve_text{
-        width: 550px;
-    }
-    .reservation_ins_cont_phone_reserve h1 b{
-        font-size: 16px;
-    }
-    .reservation_ins_cont_number{
-        font-size: 40px;
     }
     .footer-inside{
         display: flex;
@@ -392,24 +368,6 @@
         font-size: 15px;
         line-height: 26px;
         width: 90%;
-    }
-    .reservation_cent{
-        width: 100%;
-    }
-    .reservation_ins_cont_reserve_text{
-        width: 100%;
-    }
-    .reservation_ins_cont_reserve_text span{
-        font-size: 16px;
-    }
-    .reservation_ins_cont_reserve h1{
-        font-size: 26px;
-    }
-    .reservation_ins_cont_phone_reserve h1 b{
-        font-size: 13px;
-    }
-    .reservation_ins_cont_number{
-        font-size: 40px;
     }
     .footer-inside{
         display: flex;
