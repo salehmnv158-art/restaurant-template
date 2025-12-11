@@ -1,13 +1,3 @@
-navreserve.addEventListener('mouseover', ()=>{
-    navreserve.classList.add('navbar_reserve-active');
-    navreserve.classList.remove('navbar_reserve-passive');
-})
-
-navreserve.addEventListener('mouseleave', ()=>{
-    navreserve.classList.remove('navbar_reserve-active');
-    navreserve.classList.add('navbar_reserve-passive');
-})
-
 let menubutton = document.querySelector('.menu_site_button');
 
 menubutton.addEventListener('mouseover', ()=>{
